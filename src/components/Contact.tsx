@@ -52,7 +52,7 @@ const Contact = () => {
                     17th Ave Car and Dog Wash
                   </p>
                   <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
-                    International Avenue<br />
+                    Off 17th Avenue<br />
                     Calgary
                   </p>
                 </div>

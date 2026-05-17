@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="md:col-span-3 md:col-start-10">
             <div className="space-y-2.5 text-sm text-white/70">
               <p className="text-xs leading-relaxed pt-2">
-                International Avenue<br />Calgary
+                Off 17th Avenue<br />Calgary
               </p>
             </div>
           </div>
