@@ -1,41 +1,41 @@
-import { Home, Building2, Droplets, Package, Wrench, Layers } from "lucide-react";
+import { Car, CreditCard, Droplets, PawPrint, Ruler, Wind } from "lucide-react";
 
 const services = [
   {
     num: "01",
-    icon: Home,
-    title: "Domestic Carpet",
-    description: "Carpet supply and installation for homes of all sizes.",
+    icon: Car,
+    title: "Self service bays",
+    description: "There are six extra wide bays that comfortably accommodate large personal vehicles and commercial trucks.",
   },
   {
     num: "02",
-    icon: Layers,
-    title: "Vinyl and Vinyl Planks",
-    description: "Sheet vinyl, glue-down planks, and herringbone styles.",
+    icon: Ruler,
+    title: "High clearance",
+    description: "Every bay features an eleven foot clearance height which equals three point two five meters for oversized vehicles.",
   },
   {
     num: "03",
     icon: Droplets,
-    title: "Wet Floors",
-    description: "Slip-resistant wet floor solutions for safer bathrooms.",
+    title: "Premium wash cycles",
+    description: "The system includes a pre soak cycle a tire cleaner high pressure soap a foaming brush and high pressure rinse options.",
   },
   {
     num: "04",
-    icon: Building2,
-    title: "Commercial Installations",
-    description: "Commercial flooring for cafes, gyms, offices, and salons.",
+    icon: PawPrint,
+    title: "Indoor pet wash",
+    description: "The facility includes a dedicated indoor station featuring the system built specifically for washing dogs safely.",
   },
   {
     num: "05",
-    icon: Wrench,
-    title: "Subfloors and Repairs",
-    description: "Floor prep, subfloors, and repair work done properly.",
+    icon: Wind,
+    title: "Finishing options",
+    description: "Customers can use the high powered on site vacuums and dedicated blowers to clean vehicle interiors thoroughly.",
   },
   {
     num: "06",
-    icon: Package,
-    title: "Full Supply",
-    description: "A full supply service with carpet, vinyl, cork, needle punch, and turf.",
+    icon: CreditCard,
+    title: "Payment methods",
+    description: "The payment machines accept coins and electronic transactions including both credit cards and debit cards.",
   },
 ];
 
@@ -45,16 +45,13 @@ const Services = () => {
       <div className="section-container">
         <div className="grid lg:grid-cols-12 gap-8 mb-12 md:mb-16">
           <div className="lg:col-span-6">
-            <span className="text-xs font-semibold tracking-[0.25em] uppercase text-accent mb-4 block font-sans">
-              What We Do
-            </span>
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] text-balance">
-              Specialists in every floor.
+              Facility features and cleaning options
             </h2>
           </div>
           <div className="lg:col-span-5 lg:col-start-8 flex items-end">
             <p className="text-muted-foreground leading-relaxed text-base">
-              Big job or small, domestic or commercial, every quote is free and under no obligation.
+              The washing bays provide flexible options for deep vehicle care and maintenance.
             </p>
           </div>
         </div>
@@ -66,7 +63,7 @@ const Services = () => {
               className="bg-card p-6 sm:p-7 md:p-9 group transition-colors duration-300 hover:bg-background"
             >
               <div className="flex items-start justify-between mb-6">
-                <span className="text-xs text-muted-foreground font-sans tracking-wider font-semibold group-hover:text-foreground">{service.num}</span>
+                <span className="text-xs text-muted-foreground font-sans group-hover:text-foreground">{service.num}</span>
                 <service.icon size={22} className="text-muted-foreground/40 group-hover:text-foreground transition-colors duration-300" strokeWidth={1.5} />
               </div>
               <h3 className="font-display text-2xl md:text-3xl text-foreground mb-3 leading-none">

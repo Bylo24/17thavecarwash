@@ -6,11 +6,10 @@ import Blog from "@/components/Blog";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import MobileStickyBar from "@/components/MobileStickyBar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background pb-24 sm:pb-0">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
       <Services />
@@ -19,7 +18,6 @@ const Index = () => {
       <Testimonials />
       <Contact />
       <Footer />
-      <MobileStickyBar />
     </div>
   );
 };

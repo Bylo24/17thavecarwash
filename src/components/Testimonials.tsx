@@ -3,48 +3,36 @@ import { Quote, Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Cheryl Hill",
-    quote:
-      "Clear communication from the first call through to installation, with a smooth, hassle-free process.",
+    name: "Lorne W",
+    subtext: "Verified Customer",
+    quote: "The location is clean and the timing is fair for the money spent. The staff members are polite and helpful during visits.",
   },
   {
-    name: "Rebekah Johnson",
-    quote:
-      "Quick to respond, sorted the repair fast, and then delivered a beautiful carpet and vinyl install.",
+    name: "Bianca D",
+    subtext: "Local Guide",
+    quote: "The facility is well maintained and the bays are spacious. The credit card machines make payment very simple.",
   },
   {
-    name: "Reana Tasker",
-    quote:
-      "Outstanding communication and genuine care, even for a small job. Felt like a priority from start to finish.",
+    name: "S Chun",
+    subtext: "Regular Visitor",
+    quote: "The indoor dog washing station is excellent. It provides everything needed to wash and blow dry a dog safely.",
   },
   {
-    name: "Tie Scown",
-    quote:
-      "Fast quoting, quick turnaround, and quality craftsmanship with a result that matched the budget.",
+    name: "Ash N",
+    subtext: "Verified Customer",
+    quote: "The bays are always kept clean and free of mud from previous vehicles. The lighting inside the building is very bright.",
   },
   {
-    name: "Debz Tongotea",
-    quote:
-      "Organised, professional, and easy to have in the home. They kept to the plan and finished early.",
+    name: "Abdullah A",
+    subtext: "Commercial Driver",
+    quote: "The facility is spacious and well looked after by the team. Having a high clearance area is helpful for larger trucks.",
   },
   {
-    name: "Peter Winter",
-    quote:
-      "Great service, fast follow-up, and a tough job completed properly when other companies did not show up.",
+    name: "Oussama C",
+    subtext: "Local Resident",
+    quote: "The staff keeps the bays tidy and sanitized frequently. It is a reliable spot for a quick rinse or a full interior clean.",
   },
 ];
-
-const GoogleBadge = () => (
-  <span className="inline-flex items-center gap-2 text-muted-foreground">
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/250px-Google_%22G%22_logo.svg.png"
-      alt="Google"
-      className="h-5 w-5 shrink-0 object-contain"
-      loading="lazy"
-    />
-    <span className="text-[10px] font-semibold uppercase tracking-[0.18em]">Google</span>
-  </span>
-);
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -62,17 +50,13 @@ const Testimonials = () => {
       <div className="section-container">
         <div className="grid lg:grid-cols-12 gap-8 mb-10 md:mb-14 items-end">
           <div className="lg:col-span-7">
-            <span className="text-xs font-semibold tracking-[0.25em] uppercase text-accent mb-4 block font-sans">
-              Reviews
-            </span>
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] text-balance">
-              See what our clients say.
+              See what customers say
             </h2>
           </div>
           <div className="lg:col-span-4 lg:col-start-9">
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              Real feedback from customers who wanted clear communication, tidy work, and a result they
-              could trust.
+              Customer feedback reflects regular use of the wash bays, payment machines, vacuums, and indoor dog wash.
             </p>
           </div>
         </div>
@@ -105,12 +89,10 @@ const Testimonials = () => {
                   </p>
 
                   <div className="mt-6 pt-5 border-t border-border">
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] font-sans text-muted-foreground">
+                    <p className="text-xs font-sans text-muted-foreground">
                       {review.name}
                     </p>
-                    <div className="mt-2">
-                      <GoogleBadge />
-                    </div>
+                    <p className="mt-2 text-xs text-muted-foreground">{review.subtext}</p>
                   </div>
                 </article>
               );
@@ -155,12 +137,10 @@ const Testimonials = () => {
                 </p>
 
                 <div className="mt-6 pt-5 border-t border-border">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] font-sans text-muted-foreground">
+                  <p className="text-xs font-sans text-muted-foreground">
                     {review.name}
                   </p>
-                  <div className="mt-2">
-                    <GoogleBadge />
-                  </div>
+                  <p className="mt-2 text-xs text-muted-foreground">{review.subtext}</p>
                 </div>
               </article>
             );
