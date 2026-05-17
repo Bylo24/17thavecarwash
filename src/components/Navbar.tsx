@@ -35,7 +35,7 @@ const Navbar = () => {
             href="#contact"
             className="text-sm text-accent border border-accent px-5 py-2.5 rounded-sm transition-all duration-200 hover:border-secondary hover:text-secondary"
           >
-            Find us
+            Find Us
           </a>
         </div>
 
@@ -65,7 +65,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
             className="mt-4 block text-center text-sm text-accent border border-accent px-5 py-3.5 rounded-sm"
           >
-            Find us
+            Find Us
           </a>
         </div>
       )}

@@ -4,37 +4,37 @@ const services = [
   {
     num: "01",
     icon: Car,
-    title: "Self service bays",
+    title: "Self Service Bays",
     description: "There are six extra wide bays that comfortably accommodate large personal vehicles and commercial trucks.",
   },
   {
     num: "02",
     icon: Ruler,
-    title: "High clearance",
+    title: "High Clearance",
     description: "Every bay features an eleven foot clearance height which equals three point two five meters for oversized vehicles.",
   },
   {
     num: "03",
     icon: Droplets,
-    title: "Premium wash cycles",
+    title: "Premium Wash Cycles",
     description: "The system includes a pre soak cycle a tire cleaner high pressure soap a foaming brush and high pressure rinse options.",
   },
   {
     num: "04",
     icon: PawPrint,
-    title: "Indoor pet wash",
+    title: "Indoor Pet Wash",
     description: "The facility includes a dedicated indoor station featuring the system built specifically for washing dogs safely.",
   },
   {
     num: "05",
     icon: Wind,
-    title: "Finishing options",
+    title: "Finishing Options",
     description: "Customers can use the high powered on site vacuums and dedicated blowers to clean vehicle interiors thoroughly.",
   },
   {
     num: "06",
     icon: CreditCard,
-    title: "Payment methods",
+    title: "Payment Methods",
     description: "The payment machines accept coins and electronic transactions including both credit cards and debit cards.",
   },
 ];
@@ -46,7 +46,7 @@ const Services = () => {
         <div className="grid lg:grid-cols-12 gap-8 mb-12 md:mb-16">
           <div className="lg:col-span-6">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] text-balance">
-              Facility features and cleaning options
+              Facility Features and Cleaning Options
             </h2>
           </div>
           <div className="lg:col-span-5 lg:col-start-8 flex items-end">

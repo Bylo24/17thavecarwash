@@ -1,15 +1,15 @@
 const galleryImages = [
   {
     src: "https://17avecarwash.wordpress.com/wp-content/uploads/2019/06/detailing2.jpg",
-    alt: "Vehicle detailing service area",
+    alt: "Vehicle Detailing Service Area",
   },
   {
     src: "https://17avecarwash.wordpress.com/wp-content/uploads/2019/05/img_1380-2.jpg",
-    alt: "Self service dog washing station",
+    alt: "Self Service Dog Washing Station",
   },
   {
     src: "https://17avecarwash.wordpress.com/wp-content/uploads/2019/05/img_1359.jpg",
-    alt: "Clean self service car wash bay",
+    alt: "Clean Self Service Car Wash Bay",
   },
 ];
 
@@ -20,7 +20,7 @@ const Blog = () => {
         <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12 items-start">
           <div className="max-w-xl lg:pt-8 xl:pt-10">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] text-balance">
-              See the facility
+              See the Facility
             </h2>
           </div>
 

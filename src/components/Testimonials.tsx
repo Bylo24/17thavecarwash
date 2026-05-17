@@ -51,7 +51,7 @@ const Testimonials = () => {
         <div className="grid lg:grid-cols-12 gap-8 mb-10 md:mb-14 items-end">
           <div className="lg:col-span-7">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] text-balance">
-              See what customers say
+              See What Customers Say
             </h2>
           </div>
           <div className="lg:col-span-4 lg:col-start-9">

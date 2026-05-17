@@ -4,7 +4,7 @@ const OriginStory = () => {
       <div className="section-container">
         <div className="bg-card border border-border p-7 sm:p-10 md:p-14">
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] mb-8 text-balance">
-            Operational pricing and details
+            Operational Pricing and Details
           </h2>
           <div className="grid md:grid-cols-2 gap-6 md:gap-10 text-muted-foreground leading-[1.75] text-sm sm:text-base">
             <p>

@@ -17,13 +17,13 @@ const Contact = () => {
       await new Promise((r) => setTimeout(r, 400));
 
       toast({
-        title: "Message received",
+        title: "Message Received",
         description: "The team has received the inquiry.",
       });
       form.reset();
     } catch {
       toast({
-        title: "Something went wrong",
+        title: "Something Went Wrong",
         description: "Please try sending the message again.",
         variant: "destructive",
       });
@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16">
           <div className="lg:col-span-5">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground leading-[1] mb-6 text-balance">
-              Contact the facility
+              Contact the Facility
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8 text-sm sm:text-base">
               Fill out the form below to ask questions about commercial accounts or general facility services.
@@ -133,7 +133,7 @@ const Contact = () => {
                 disabled={submitting}
                 className="inline-flex items-center justify-center w-full sm:w-auto gap-3 bg-accent text-accent-foreground px-10 py-4 text-sm font-sans rounded-sm transition-all duration-200 hover:opacity-90 disabled:opacity-50 mt-2 shadow-[0_12px_30px_-18px_rgba(0,0,0,0.85)]"
               >
-                {submitting ? "Sending" : "Send message"}
+                {submitting ? "Sending" : "Send Message"}
               </button>
             </form>
           </div>
