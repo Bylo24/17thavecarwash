@@ -15,9 +15,17 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/40 shadow-[0_1px_0_rgba(0,0,0,0.04)]">
       <div className="section-container flex items-center justify-between h-16 sm:h-16 md:h-20">
-        <a href="#home" className="flex items-center">
-          <span className="font-display text-xl md:text-2xl text-foreground leading-none">
-            17th Ave Car and Dog Wash
+        <a href="#home" className="flex items-center gap-3">
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-sm bg-accent text-sm text-accent-foreground">
+            17
+          </span>
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-lg md:text-xl text-foreground">
+              17th Ave
+            </span>
+            <span className="text-xs md:text-sm text-muted-foreground">
+              Car and Dog Wash
+            </span>
           </span>
         </a>
 
