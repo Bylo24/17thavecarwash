@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="section-container w-full relative z-10">
         <div className="max-w-4xl">
           <h1 className="reveal-up delay-100 mt-3 sm:mt-4 lg:mt-6 font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5.75rem] leading-[0.96] text-foreground mb-5 text-balance max-w-4xl">
-            Vehicle and Pet Wash off 17th Avenue.
+            Vehicle and Pet Wash on 17th Avenue.
           </h1>
           <p className="reveal-up delay-200 text-sm sm:text-base md:text-lg lg:text-xl text-foreground leading-relaxed max-w-2xl mb-6 sm:mb-8">
             The facility features a well lit barn style layout with six spacious self service bays and a dedicated indoor dog wash station.
